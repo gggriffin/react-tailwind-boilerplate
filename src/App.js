@@ -5,13 +5,16 @@ import { Content } from "./components/Content/Content";
 import { Header } from "./components/Header/Header";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
     <FullWidthContainer>
-      <Header />
-      <Content />
-      <NavBar />
+      <Router>
+        <Header />
+        <Content />
+        <NavBar />
+      </Router>
       <Footer />
     </FullWidthContainer>
   );
