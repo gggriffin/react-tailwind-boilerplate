@@ -1,6 +1,9 @@
 import React from "react";
-import { ContentMain } from "../Content/ContentMain";
 
 export const TitleMain = () => {
-  return <ContentMain>Title Main</ContentMain>;
+  return (
+    <div className="font-main-content-text lg:mt-60 text-white text-4xl text-center">
+      <h1>MORE INFO COMING SOON</h1>
+    </div>
+  );
 };

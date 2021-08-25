@@ -5,6 +5,12 @@ module.exports = {
     container: {
       center: true,
     },
+    extend: {
+      fontFamily: {
+        "header-text": ["Frijole", "cursive"],
+        "main-content-text": ["Montserrat", "sans-serif"],
+      },
+    },
   },
   variants: {
     extend: {},

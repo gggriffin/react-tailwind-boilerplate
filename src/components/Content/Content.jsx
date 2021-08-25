@@ -9,7 +9,7 @@ export const Content = () => {
   return (
     <div className="flex-grow p-3">
       <Switch>
-        {/* <Route path="/faq">
+        <Route path="/faq">
           <QuestionView />
         </Route>
         <Route path="/volunteer">
@@ -17,7 +17,7 @@ export const Content = () => {
         </Route>
         <Route path="/foundation">
           <FoundationView />
-        </Route> */}
+        </Route>
         <Route path="/">
           <TitleView />
         </Route>

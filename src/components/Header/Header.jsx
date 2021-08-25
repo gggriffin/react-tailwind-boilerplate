@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <Link to="/">
-      <div className="h-28 flex items-center justify-center font-mono text-4xl text-white text-center border-8 border-white">
-        <h1>Deadwoods</h1>
+      <div className="mt-12 items-center justify-center font-header-font text-white text-center text-6xl lg:text-9xl">
+        <div className="font-header-text">DEAD</div>
+        <div className="font-header-text">WOODS</div>
       </div>
     </Link>
   );
