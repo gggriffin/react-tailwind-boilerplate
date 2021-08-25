@@ -10,12 +10,13 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <FullWidthContainer>
-      <Router>
+      {/* <Router>
         <Header />
         <Content />
         <NavBar />
       </Router>
-      <Footer />
+      <Footer /> */}
+      <div style={{ background: "white" }}>TEST TEST TEST</div>
     </FullWidthContainer>
   );
 }
