@@ -9,14 +9,17 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <FullWidthContainer>
+    <>
+      Test test test
       <Router basename="https://github.com/gggriffin/deadwoods">
-        <Header />
-        <Content />
-        <NavBar />
+        <FullWidthContainer>
+          <Header />
+          <Content />
+          <NavBar />
+          <Footer />
+        </FullWidthContainer>
       </Router>
-      <Footer />
-    </FullWidthContainer>
+    </>
   );
 }
 
