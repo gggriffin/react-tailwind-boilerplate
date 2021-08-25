@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/deadwoods/static/css/main.9ecf5aa9.chunk.css",
-    "main.js": "/deadwoods/static/js/main.e2e427a0.chunk.js",
-    "main.js.map": "/deadwoods/static/js/main.e2e427a0.chunk.js.map",
-    "runtime-main.js": "/deadwoods/static/js/runtime-main.346f384c.js",
-    "runtime-main.js.map": "/deadwoods/static/js/runtime-main.346f384c.js.map",
-    "static/js/2.d1f69b34.chunk.js": "/deadwoods/static/js/2.d1f69b34.chunk.js",
-    "static/js/2.d1f69b34.chunk.js.map": "/deadwoods/static/js/2.d1f69b34.chunk.js.map",
-    "static/js/3.b0295d76.chunk.js": "/deadwoods/static/js/3.b0295d76.chunk.js",
-    "static/js/3.b0295d76.chunk.js.map": "/deadwoods/static/js/3.b0295d76.chunk.js.map",
-    "index.html": "/deadwoods/index.html",
-    "static/css/main.9ecf5aa9.chunk.css.map": "/deadwoods/static/css/main.9ecf5aa9.chunk.css.map",
-    "static/js/2.d1f69b34.chunk.js.LICENSE.txt": "/deadwoods/static/js/2.d1f69b34.chunk.js.LICENSE.txt"
+    "main.css": "/gggriffin/deadwoods/static/css/main.9ecf5aa9.chunk.css",
+    "main.js": "/gggriffin/deadwoods/static/js/main.e2e427a0.chunk.js",
+    "main.js.map": "/gggriffin/deadwoods/static/js/main.e2e427a0.chunk.js.map",
+    "runtime-main.js": "/gggriffin/deadwoods/static/js/runtime-main.5b63f02e.js",
+    "runtime-main.js.map": "/gggriffin/deadwoods/static/js/runtime-main.5b63f02e.js.map",
+    "static/js/2.d1f69b34.chunk.js": "/gggriffin/deadwoods/static/js/2.d1f69b34.chunk.js",
+    "static/js/2.d1f69b34.chunk.js.map": "/gggriffin/deadwoods/static/js/2.d1f69b34.chunk.js.map",
+    "static/js/3.b0295d76.chunk.js": "/gggriffin/deadwoods/static/js/3.b0295d76.chunk.js",
+    "static/js/3.b0295d76.chunk.js.map": "/gggriffin/deadwoods/static/js/3.b0295d76.chunk.js.map",
+    "index.html": "/gggriffin/deadwoods/index.html",
+    "static/css/main.9ecf5aa9.chunk.css.map": "/gggriffin/deadwoods/static/css/main.9ecf5aa9.chunk.css.map",
+    "static/js/2.d1f69b34.chunk.js.LICENSE.txt": "/gggriffin/deadwoods/static/js/2.d1f69b34.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.346f384c.js",
+    "static/js/runtime-main.5b63f02e.js",
     "static/js/2.d1f69b34.chunk.js",
     "static/css/main.9ecf5aa9.chunk.css",
     "static/js/main.e2e427a0.chunk.js"
