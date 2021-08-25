@@ -5,18 +5,15 @@ import { Content } from "./components/Content/Content";
 import { Header } from "./components/Header/Header";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
-import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename="/React">
       <FullWidthContainer>
         <Header />
         <Content />
         <NavBar />
         <Footer />
       </FullWidthContainer>
-    </Router>
   );
 }
 
