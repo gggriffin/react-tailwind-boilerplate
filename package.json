@@ -2,7 +2,7 @@
   "name": "deadwoods",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gggriffin.github.io/deadwoods-repo",
+  "homepage": "https://github.com/gggriffin/deadwoods",
   "dependencies": {
     "-": "^0.0.1",
     "@craco/craco": "^6.2.0",
@@ -26,7 +26,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
