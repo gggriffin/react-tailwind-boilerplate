@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="http://deadwoods.org">
+    <Router basename="/React">
       <App />
     </Router>
   </React.StrictMode>,
