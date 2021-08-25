@@ -2,7 +2,7 @@
   "name": "deadwoods",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://deadwoods.org/",
+  "homepage": "https://deadwoods.org",
   "dependencies": {
     "-": "^0.0.1",
     "@craco/craco": "^6.2.0",

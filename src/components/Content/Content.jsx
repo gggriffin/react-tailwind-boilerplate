@@ -7,7 +7,6 @@ import { Switch, Route } from "react-router-dom";
 
 export const Content = () => {
   return (
-    <div className="flex-grow p-3">
       <Switch>
         <Route path="/faq">
           <QuestionView />
@@ -22,6 +21,5 @@ export const Content = () => {
           <TitleView />
         </Route>
       </Switch>
-    </div>
   );
 };
