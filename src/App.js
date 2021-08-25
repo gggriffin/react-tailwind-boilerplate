@@ -10,13 +10,12 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <FullWidthContainer>
-      {/* <Router>
+      <Router basename="https://github.com/gggriffin/deadwoods">
         <Header />
         <Content />
         <NavBar />
       </Router>
-      <Footer /> */}
-      <div style={{ background: "white" }}>TEST TEST TEST</div>
+      <Footer />
     </FullWidthContainer>
   );
 }
