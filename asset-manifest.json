@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gggriffin/deadwoods/static/css/main.9ecf5aa9.chunk.css",
-    "main.js": "/gggriffin/deadwoods/static/js/main.e2e427a0.chunk.js",
-    "main.js.map": "/gggriffin/deadwoods/static/js/main.e2e427a0.chunk.js.map",
+    "main.js": "/gggriffin/deadwoods/static/js/main.70de2847.chunk.js",
+    "main.js.map": "/gggriffin/deadwoods/static/js/main.70de2847.chunk.js.map",
     "runtime-main.js": "/gggriffin/deadwoods/static/js/runtime-main.5b63f02e.js",
     "runtime-main.js.map": "/gggriffin/deadwoods/static/js/runtime-main.5b63f02e.js.map",
     "static/js/2.d1f69b34.chunk.js": "/gggriffin/deadwoods/static/js/2.d1f69b34.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5b63f02e.js",
     "static/js/2.d1f69b34.chunk.js",
     "static/css/main.9ecf5aa9.chunk.css",
-    "static/js/main.e2e427a0.chunk.js"
+    "static/js/main.70de2847.chunk.js"
   ]
 }
