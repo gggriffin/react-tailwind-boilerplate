@@ -5,17 +5,15 @@ import { Content } from "./components/Content/Content";
 import { Header } from "./components/Header/Header";
 // import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
-//TODO: Uncomment NavBar and adjust height of footer
-
 
 function App() {
   return (
-      <FullWidthContainer>
-        <Header />
-        <Content />
-        {/* <NavBar /> */}
-        <Footer />
-      </FullWidthContainer>
+    <FullWidthContainer>
+      <Header />
+      {/* <NavBar /> */}
+      <Content />
+      <Footer />
+    </FullWidthContainer>
   );
 }
 
