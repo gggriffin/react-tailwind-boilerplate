@@ -3,7 +3,7 @@ import { TitleIntro } from "./TitleIntro";
 import { InfoTile } from "../Wrappers/InfoTile";
 export const TitleView = () => {
   return (
-    <div className="mt-8">
+    <div className='mt-8'>
       <TitleIntro />
       <InfoTile>
         Welcome to The Deadwoods, where scares come easy and thrills are many.
@@ -16,6 +16,6 @@ export const TitleView = () => {
         sanity after your journey through this Hellscape. Come see us, we dare
         you... ˝
       </InfoTile>
-    </>
+    </div>
   );
 };
