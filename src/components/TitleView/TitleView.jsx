@@ -3,7 +3,7 @@ import { TitleIntro } from "./TitleIntro";
 import { InfoTile } from "../Wrappers/InfoTile";
 export const TitleView = () => {
   return (
-    <>
+    <div className="mt-8">
       <TitleIntro />
       <InfoTile>
         Welcome to The Deadwoods, where scares come easy and thrills are many.
