@@ -4,7 +4,7 @@ import { InfoTile } from "../Wrappers/InfoTile";
 
 export const VolunteerView = () => {
   return (
-    <div className='mt-6'>
+    <div className='mt-8'>
       <InfoHeaderText>Get Involved</InfoHeaderText>
       <InfoTile>
         <p>
