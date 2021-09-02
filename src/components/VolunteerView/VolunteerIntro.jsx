@@ -1,6 +1,10 @@
 import React from "react";
-import { ContentIntro } from "../Content/ContentIntro";
 
+//TODO: Replace with InfoHeaderText
 export const VolunteerIntro = () => {
-  return <ContentIntro>Volunteer Intro</ContentIntro>;
+  return (
+    <div className='text-center text-3xl font-bold'>
+      Get Involved:
+    </div>
+  );
 };

@@ -5,7 +5,7 @@ import { QuestionTile } from "./QuestionTile";
 
 export const QuestionView = () => {
   return (
-    <div className='h-full flex flex-col  text-white mt-6'>
+    <div className='h-full flex flex-col  text-green-primary mt-6'>
       <QuestionIntro />
       <QuestionTile>
         <QuestionAsked>Is The Deadwoods open rain or shine?</QuestionAsked>

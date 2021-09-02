@@ -6,6 +6,7 @@ import { VolunteerView } from "../VolunteerView/VolunteerView";
 import { Switch, Route } from "react-router-dom";
 
 export const Content = () => {
+  //Refactor to Router
   return (
       <Switch>
         <Route path="/faq">

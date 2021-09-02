@@ -7,7 +7,7 @@ export const NavBar = () => {
       <div className="flex w-100 h-16 items-center justify-around text-gray-300">
         <NavButton link="/faq" title="More Info" />
         <NavButton link="/volunteer" title="Volunteer" />
-        <NavButton link="/foundation" title="Stainbrook Foundation" />
+        {/* <NavButton link="/foundation" title="Stainbrook Foundation" /> */}
       </div>
     </div>
   );
