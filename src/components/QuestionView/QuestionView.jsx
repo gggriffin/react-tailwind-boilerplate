@@ -13,7 +13,7 @@ export const QuestionView = () => {
           No. This attraction is entirely outdoors, and therefore will be
           weather dependent. Light rain or cold weather will not affect this
           event, but heavy downpours or other extreme conditions may. Check here
-          in the days leading up to the vent for weather cancellation
+          in the days leading up to the event for weather cancellation
           information. November 6th will be our make up day.
         </div>
       </InfoTile>

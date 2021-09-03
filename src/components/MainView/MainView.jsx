@@ -1,10 +1,10 @@
 import React from "react";
-import { TitleIntro } from "./TitleIntro";
+import { MainIntro } from "./MainIntro";
 import { InfoTile } from "../Wrappers/InfoTile";
-export const TitleView = () => {
+export const MainView = () => {
   return (
     <div className='mt-8'>
-      <TitleIntro />
+      <MainIntro />
       <InfoTile>
         Welcome to The Deadwoods, where scares come easy and thrills are many.
         The creatures of the night beckon you to take a scream filled tour
@@ -14,7 +14,7 @@ export const TitleView = () => {
         filled with creeps, specters, and killers sure to make your insides
         gurgle. We wish you the best of luck clinging to what remains of your
         sanity after your journey through this Hellscape. Come see us, we dare
-        you... ˝
+        you...
       </InfoTile>
     </div>
   );

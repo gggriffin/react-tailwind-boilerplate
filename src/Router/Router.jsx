@@ -1,6 +1,6 @@
 import React from "react";
 import { FoundationView } from "../components/FoundationView/FoundationView";
-import { TitleView } from "../components/TitleView/TitleView";
+import { MainView } from "../components/MainView/MainView";
 import { QuestionView } from "../components/QuestionView/QuestionView";
 import { VolunteerView } from "../components/VolunteerView/VolunteerView";
 import { Switch, Route } from "react-router-dom";
@@ -18,7 +18,7 @@ export const Router = () => {
         <FoundationView />
       </Route>
       <Route path='/'>
-        <TitleView />
+        <MainView />
       </Route>
     </Switch>
   );

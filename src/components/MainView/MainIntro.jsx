@@ -1,6 +1,6 @@
 import React from "react";
 
-export const TitleIntro = () => {
+export const MainIntro = () => {
   return (
     <div className='flex text-green-primary justify-center'>
       <div className='font-main-content-text text-5xl lg:text-7xl lg:mt-32 text-center'>
