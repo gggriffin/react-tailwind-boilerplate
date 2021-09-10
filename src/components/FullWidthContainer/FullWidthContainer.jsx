@@ -7,10 +7,14 @@ export const FullWidthContainer = (props) => {
   return (
     <div
       style={{
-        background:
-          "linear-gradient(0deg, rgba(94,252,141,1) 0%, rgba(20,20,20,1) 30%)",
+        backgroundImage: `url(${
+          process.env.PUBLIC_URL + "/images/deadwoods-background-photo.jpeg"
+        })`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
       }}
-      className='flex flex-col flex-grow container w-100 min-h-screen overflow-scroll'
+      className='flex flex-col flex-grow container w-100 min-h-screen'
     >
       {children}
     </div>

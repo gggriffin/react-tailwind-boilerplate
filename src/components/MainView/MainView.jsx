@@ -1,11 +1,8 @@
 import React from "react";
 import { MainIntro } from "./MainIntro";
-import { InfoTile } from "../Wrappers/InfoTile";
-export const MainView = () => {
-  return (
-    <div className='mt-8'>
-      <MainIntro />
-      <InfoTile>
+// import { InfoTile } from "../Wrappers/InfoTile";
+{
+  /* <InfoTile>
         Welcome to The Deadwoods, where scares come easy and thrills are many.
         The creatures of the night beckon you to take a scream filled tour
         through our haunted corn trail, where you will come face-to-face with
@@ -15,7 +12,13 @@ export const MainView = () => {
         gurgle. We wish you the best of luck clinging to what remains of your
         sanity after your journey through this Hellscape. Come see us, we dare
         you...
-      </InfoTile>
+      </InfoTile> */
+}
+
+export const MainView = () => {
+  return (
+    <div className='mt-8'>
+      <MainIntro />
     </div>
   );
 };
