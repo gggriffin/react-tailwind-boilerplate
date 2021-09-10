@@ -3,10 +3,8 @@ import React from "react";
 export const InfoTile = (props) => {
   const { children } = props;
   return (
-    <div className='border-white border-solid border-4 m-5 rounded-md'>
-      <div className='bg-white opacity-60 p-4 border-4  border-solid border-white text-center text-black'>
-        {children}
-      </div>
+    <div className='bg-white bg-opacity-20 rounded-md p-4 text-center text-white font-main-content-text m-3'>
+      {children}
     </div>
   );
 };

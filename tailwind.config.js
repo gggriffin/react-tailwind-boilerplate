@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        "header-text": ["Frijole", "cursive"],
+        "header-text": ["Spartan", "sans-serif"],
         "main-content-text": ["Montserrat", "sans-serif"],
       },
     },

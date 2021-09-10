@@ -9,8 +9,8 @@ import { Router } from "./Router/Router";
 function App() {
   return (
     <FullWidthContainer>
-      <Header />
       <NavBar />
+      <Header />
       <Router />
       <Footer />
     </FullWidthContainer>
