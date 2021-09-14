@@ -5,7 +5,7 @@ import { InfoTile } from "../Wrappers/InfoTile";
 
 export const QuestionView = () => {
   return (
-    <div className='h-full flex flex-col  text-green-primary my-8'>
+    <div className='h-full flex flex-col  text-blue-primary my-8'>
       <InfoHeaderText>Frequently Asked Questions</InfoHeaderText>
       <InfoTile>
         <QuestionAsked>Is The Deadwoods open rain or shine?</QuestionAsked>
