@@ -4,11 +4,11 @@ import { InfoTile } from "../Wrappers/InfoTile";
 
 export const VolunteerView = () => {
   return (
-    <div className='my-8'>
+    <div className='my-8 flex flex-col lg:items-center'>
       <InfoHeaderText>Get Involved</InfoHeaderText>
       <InfoTile>
         <p>
-          We are a non-profit event, and are staffed entirely by volunteers. Any
+          We are a non-profit event and are staffed entirely by volunteers. Any
           extra help is welcome. Minimum age for volunteering is 16. Interested
           in volunteering? Reach out to admin@deadwoods.org for more
           information.
