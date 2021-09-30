@@ -1,5 +1,14 @@
 export const QuestionAsked = (props) => {
   const { children } = props;
 
-  return <div className='font-bold mb-5 text-blue-primary'>{children}</div>;
+  return (
+    <div
+      style={{
+        textShadow: "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000",
+      }}
+      className='font-bold mb-5 text-blue-primary'
+    >
+      {children}
+    </div>
+  );
 };
