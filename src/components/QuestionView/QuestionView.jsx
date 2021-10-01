@@ -2,18 +2,18 @@ import React from "react";
 import { QuestionAsked } from "./QuestionAsked";
 import { InfoHeaderText } from "../Wrappers/InfoHeaderText";
 import { InfoTile } from "../Wrappers/InfoTile";
-// import { Carousel } from "../Carousel/Carousel";
+import { ImageCarousel } from "../ImageCarousel/ImageCarousel";
 
 export const QuestionView = () => {
   return (
     <div className='h-full flex flex-col lg:items-center'>
-      {/* <Carousel /> */}
       <InfoHeaderText>Admission </InfoHeaderText>
       <InfoTile>
         Tickets are $10 per person. Children ages 10 and under are free. Tickets
         can be purchased with cash or Venmo the night of the event. Tickets must
         be purchased on site. Proceeds will benefit The Stainbrook Foundation.
       </InfoTile>
+      <ImageCarousel />
       <InfoHeaderText>Frequently Asked Questions</InfoHeaderText>
       <InfoTile>
         <QuestionAsked>Is The Deadwoods open rain or shine?</QuestionAsked>

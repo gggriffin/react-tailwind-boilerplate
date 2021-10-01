@@ -11,6 +11,7 @@ module.exports = {
       },
       white: "#FFFFFF",
       black: "#141414",
+      trueBlack: "#000000",
     },
     container: {
       center: true,
