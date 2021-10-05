@@ -14,6 +14,7 @@ export const VolunteerView = () => {
           <a
             className='text-blue-primary underline'
             target='_blank'
+            rel='noreferrer'
             href='https://m.facebook.com/Deadwoods-254072839802985/?ref=bookmarks'
           >
             Deadwoods' Facebook page

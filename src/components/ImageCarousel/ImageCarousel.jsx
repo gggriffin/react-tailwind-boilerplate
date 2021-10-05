@@ -53,6 +53,7 @@ export const ImageCarousel = () => {
         <a
           className='text-blue-primary underline'
           target='_blank'
+          rel='noreferrer'
           href='https://www.shirkmediallc.com/'
         >
           Shirk Media LLC
