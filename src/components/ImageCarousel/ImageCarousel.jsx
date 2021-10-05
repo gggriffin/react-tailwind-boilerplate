@@ -8,13 +8,7 @@ export const ImageCarousel = () => {
       original: process.env.PUBLIC_URL + "/images/deadwoods-image-1.jpg",
     },
     {
-      original: process.env.PUBLIC_URL + "/images/deadwoods-image-2.jpg",
-    },
-    {
       original: process.env.PUBLIC_URL + "/images/deadwoods-image-3.jpg",
-    },
-    {
-      original: process.env.PUBLIC_URL + "/images/deadwoods-image-4.jpg",
     },
     {
       original: process.env.PUBLIC_URL + "/images/deadwoods-image-5.jpg",
@@ -23,10 +17,16 @@ export const ImageCarousel = () => {
       original: process.env.PUBLIC_URL + "/images/deadwoods-image-6.jpg",
     },
     {
+      original: process.env.PUBLIC_URL + "/images/deadwoods-image-4.jpg",
+    },
+    {
       original: process.env.PUBLIC_URL + "/images/deadwoods-image-7.jpg",
     },
     {
       original: process.env.PUBLIC_URL + "/images/deadwoods-image-8.jpg",
+    },
+    {
+      original: process.env.PUBLIC_URL + "/images/deadwoods-image-2.jpg",
     },
     {
       original: process.env.PUBLIC_URL + "/images/deadwoods-image-9.jpg",
@@ -37,6 +37,9 @@ export const ImageCarousel = () => {
     {
       original: process.env.PUBLIC_URL + "/images/deadwoods-image-11.jpg",
     },
+    {
+      original: process.env.PUBLIC_URL + "/images/deadwoods-image-12.jpg",
+    },
   ];
   return (
     <div className='bg-trueBlack flex flex-col justify-center pb-2 font-main-content-text md:w-8/12'>
@@ -45,7 +48,12 @@ export const ImageCarousel = () => {
         showFullscreenButton={false}
         showPlayButton={false}
       />
-      <span className='w-full text-center text-white'></span>
+      <span className='w-full text-center text-white text-sm'>
+        Photos courtesy of{" "}
+        <a className='text-blue-primary underline' href='www.shirkmediallc.com'>
+          Shirk Media LLC
+        </a>
+      </span>
     </div>
   );
 };

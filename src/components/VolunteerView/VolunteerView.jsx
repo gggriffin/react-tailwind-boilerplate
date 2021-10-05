@@ -10,8 +10,14 @@ export const VolunteerView = () => {
         <p>
           We are a non-profit event and are staffed entirely by volunteers. Any
           extra help is welcome. Minimum age for volunteering is 16. Interested
-          in volunteering? Reach out to admin@deadwoods.org for more
-          information.
+          in volunteering? Visit{" "}
+          <a
+            className='text-blue-primary underline'
+            href='https://m.facebook.com/Deadwoods-254072839802985/?ref=bookmarks'
+          >
+            the Deadwoods' Facebook page
+          </a>{" "}
+          or send an email to admin@deadwoods.org for more information.
         </p>
       </InfoTile>
       <InfoHeaderText>

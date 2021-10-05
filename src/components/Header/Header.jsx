@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-//#5EFC8D
-//#06d6a0
-//#09E85E
-
 export const Header = () => {
   return (
     <Link to='/'>

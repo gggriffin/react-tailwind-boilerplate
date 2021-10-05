@@ -13,6 +13,14 @@ export const QuestionView = () => {
         can be purchased with cash or Venmo the night of the event. Tickets must
         be purchased on site. Proceeds will benefit The Stainbrook Foundation.
       </InfoTile>
+      <InfoHeaderText>The Stainbrook Foundation </InfoHeaderText>
+      <InfoTile>
+        The Stainbrook Foundation is a non-profit organization that was created
+        to enhance the communities of the Prairie View school district
+        year-round. We have given out scholarships, Christmas gifts for the
+        local Christmas drive and provided access to eyecare and other
+        necessities for children in our communities.
+      </InfoTile>
       <ImageCarousel />
       <InfoHeaderText>Frequently Asked Questions</InfoHeaderText>
       <InfoTile>
