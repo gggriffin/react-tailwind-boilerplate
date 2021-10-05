@@ -52,6 +52,7 @@ export const ImageCarousel = () => {
         Photos courtesy of{" "}
         <a
           className='text-blue-primary underline'
+          target='_blank'
           href='https://www.shirkmediallc.com/'
         >
           Shirk Media LLC

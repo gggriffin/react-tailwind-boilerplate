@@ -13,6 +13,7 @@ export const VolunteerView = () => {
           in volunteering? Visit the{" "}
           <a
             className='text-blue-primary underline'
+            target='_blank'
             href='https://m.facebook.com/Deadwoods-254072839802985/?ref=bookmarks'
           >
             Deadwoods' Facebook page
