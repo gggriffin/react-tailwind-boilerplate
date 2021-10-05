@@ -50,7 +50,10 @@ export const ImageCarousel = () => {
       />
       <span className='w-full text-center text-white text-sm'>
         Photos courtesy of{" "}
-        <a className='text-blue-primary underline' href='www.shirkmediallc.com'>
+        <a
+          className='text-blue-primary underline'
+          href='https://www.shirkmediallc.com/'
+        >
           Shirk Media LLC
         </a>
       </span>
