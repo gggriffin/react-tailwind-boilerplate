@@ -5,6 +5,9 @@ import "./ImageCarousel.styles.css";
 export const ImageCarousel = () => {
   const images = [
     {
+      original: process.env.PUBLIC_URL + "/images/deadwoods-image-15.jpg",
+    },
+    {
       original: process.env.PUBLIC_URL + "/images/deadwoods-image-1.jpg",
     },
     {
@@ -39,6 +42,15 @@ export const ImageCarousel = () => {
     },
     {
       original: process.env.PUBLIC_URL + "/images/deadwoods-image-12.jpg",
+    },
+    {
+      original: process.env.PUBLIC_URL + "/images/deadwoods-image-13.jpg",
+    },
+    {
+      original: process.env.PUBLIC_URL + "/images/deadwoods-image-14.jpg",
+    },
+    {
+      original: process.env.PUBLIC_URL + "/images/deadwoods-image-16.jpg",
     },
   ];
   return (
